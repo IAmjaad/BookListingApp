@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:padding="15dp">
+
+    <TextView
+        android:id="@+id/bookTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Title"
+        android:textSize="18sp"
+        android:paddingBottom="25dp"/>
+
+    <TextView
+        android:id="@+id/bookAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bookTitle"
+        android:text="Book author"
+        android:textSize="15sp"
+        android:paddingTop="20dp"
+        android:layout_margin="5dp"/>
+
+</RelativeLayout>
